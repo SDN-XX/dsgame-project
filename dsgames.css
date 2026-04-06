@@ -45,7 +45,7 @@ header {
 }
 
 main {
-    min-height: 1550px;
+    min-height: 1050px;
     background-color: rgb(72, 14, 103);
     border-radius: 5px;
     padding: 20px;
@@ -92,3 +92,17 @@ h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(149, 14, 154);
 }
+.logo_img{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1050px;  /* Попробуй это значение, для твоего макета должно быть ок */
+    height: auto;   /* Сохраняет пропорции, чтобы медаль не стала овальной */
+    display: block; /* Позволяет работать отступам margin */
+    margin: 20px auto; /* Центрирует и дает отступ сверху/снизу 20px */
+ 
+}
+
